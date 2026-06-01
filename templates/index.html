@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>University Predictor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>🎓 University Predictor</h1>
+
+    <form method="POST">
+
+        <label>CGPA</label>
+        <input type="number" step="0.1" name="cgpa" required>
+
+        <label>IELTS Score</label>
+        <input type="number" step="0.5" name="ielts" required>
+
+        <label>Budget (₹)</label>
+        <input type="number" name="budget" required>
+
+        <button type="submit">
+            Predict Universities
+        </button>
+
+    </form>
+
+    <div class="results">
+
+        {% for uni in universities %}
+
+        <div class="card">
+            <h2>{{ uni['University'] }}</h2>
+            <p>🌍 {{ uni['Country'] }}</p>
+            <p>📊 Admission Chance: {{ uni['Admission_Chance'] }}</p>
+        </div>
+
+        {% endfor %}
+
+    </div>
+
+</div>
+
+</body>
+</html>
