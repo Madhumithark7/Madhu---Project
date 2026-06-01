@@ -2,44 +2,133 @@
 <html>
 <head>
     <title>University Predictor</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <style>
+        body {
+            font-family: Arial;
+            background: #f4f4f4;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            background: #007bff;
+            color: white;
+            border: none;
+            border-radius: 6px;
+        }
+
+        button:hover {
+            background: #0056b3;
+        }
+
+        .card {
+            background: #eee;
+            padding: 15px;
+            margin-top: 15px;
+            border-radius: 10px;
+        }
+
+        .match {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .dream { border-left: 6px solid gold; }
+        .good { border-left: 6px solid orange; }
+        .safe { border-left: 6px solid green; }
+    </style>
 </head>
+
 <body>
 
 <div class="container">
 
-    <h1>🎓 University Predictor</h1>
+    <h2>🎓 University Predictor</h2>
 
+    <!-- FORM -->
     <form method="POST">
 
-        <label>CGPA</label>
-        <input type="number" step="0.1" name="cgpa" required>
+        <input type="number" step="0.1" name="cgpa" placeholder="CGPA (e.g. 7)" required>
 
-        <label>IELTS Score</label>
-        <input type="number" step="0.5" name="ielts" required>
+        <input type="number" step="0.1" name="ielts" placeholder="IELTS (e.g. 6.5)" required>
 
-        <label>Budget (₹)</label>
-        <input type="number" name="budget" required>
+        <input type="number" name="budget" placeholder="Budget (e.g. 2500000)" required>
 
-        <button type="submit">
-            Predict Universities
-        </button>
+        <select name="country">
+            <option value="All">All Countries</option>
+            {% for c in countries %}
+                <option value="{{ c }}">{{ c }}</option>
+            {% endfor %}
+        </select>
+
+        <select name="program">
+            <option value="All">All Programs</option>
+            {% for p in programs %}
+                <option value="{{ p }}">{{ p }}</option>
+            {% endfor %}
+        </select>
+
+        <button type="submit">Find Universities</button>
 
     </form>
 
-    <div class="results">
+    <hr>
 
-        {% for uni in universities %}
+    <h3>Results</h3>
 
-        <div class="card">
-            <h2>{{ uni['University'] }}</h2>
-            <p>🌍 {{ uni['Country'] }}</p>
-            <p>📊 Admission Chance: {{ uni['Admission_Chance'] }}</p>
-        </div>
+    <!-- 🔥 IMPORTANT FIX: ONLY SHOW AFTER SUBMIT -->
+    {% if searched %}
 
-        {% endfor %}
+        {% if results|length > 0 %}
 
-    </div>
+            {% for r in results %}
+
+                <div class="card
+                    {% if r.match >= 75 %}dream
+                    {% elif r.match >= 50 %}good
+                    {% else %}safe
+                    {% endif %}
+                ">
+
+                    <h3>{{ r.name }}</h3>
+                    <p>🌍 {{ r.country }}</p>
+                    <p>📘 {{ r.program }}</p>
+
+                    <p class="match">🎯 Match: {{ r.match }}%</p>
+                    <p>🏷️ {{ r.level }}</p>
+
+                    <p>🎓 Ranking: {{ r.ranking }}</p>
+                    <p>💼 Job Prospect: {{ r.job }}</p>
+
+                </div>
+
+            {% endfor %}
+
+        {% else %}
+            <p>No universities found.</p>
+        {% endif %}
+
+    {% endif %}
 
 </div>
 

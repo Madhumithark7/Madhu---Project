@@ -1,6 +1,601 @@
-University,Country,Min_CGPA,Min_IELTS,Max_Budget,Admission_Chance
-Oxford Brookes University,UK,7.0,6.5,3000000,85%
-University of Hertfordshire,UK,6.5,6.0,2500000,80%
-Coventry University,UK,6.0,6.0,2200000,90%
-University of Essex,UK,6.5,6.0,2800000,78%
-University of Portsmouth,UK,6.0,6.0,2400000,88%
+University,Country,Program,Min_CGPA,Min_IELTS,Tuition_Fee,Acceptance_Rate,World_Ranking,Job_Prospect
+University of Sydney,Australia,Computer Science,7.1,7.8,2696467,74,48,Low
+Technical University of Munich,Germany,Data Science,6.0,7.0,2488919,34,58,High
+RWTH Aachen University,Germany,Engineering,8.9,7.6,2646336,30,63,Low
+University of Michigan,USA,AI,7.1,7.0,3615602,49,19,High
+University of Hamburg,Germany,MBA,7.8,6.2,1233342,85,28,High
+University of British Columbia,Canada,Computer Science,7.9,7.0,1277266,91,10,Medium
+Nanyang Technological University,Singapore,Data Science,8.4,7.4,3262624,52,85,Low
+University of Sydney,Australia,Business,7.7,5.7,4651711,73,144,Medium
+University of Birmingham,UK,MBA,8.6,5.6,4256760,62,164,Low
+McGill University,Canada,Business,6.3,6.0,4237257,48,28,High
+Heidelberg University,Germany,Engineering,8.0,6.5,3622471,43,120,Low
+RWTH Aachen University,Germany,Engineering,6.0,5.9,3476422,47,85,High
+Purdue University,USA,Data Science,7.4,7.5,1909438,86,84,Low
+UCLA,USA,Data Science,7.5,6.9,2407715,95,154,Low
+Technical University of Munich,Germany,AI,6.5,7.8,3902877,84,197,High
+University of Cologne,Germany,Engineering,8.9,6.2,4618118,78,146,High
+King's College London,UK,Computer Science,6.6,7.6,3816202,74,1,Low
+University of Manchester,UK,Business,8.5,6.2,3172908,85,97,Low
+Nanyang Technological University,Singapore,AI,7.5,6.7,2037527,32,117,Medium
+NYU,USA,AI,7.7,6.4,1796898,47,80,Low
+UC Berkeley,USA,Business,6.4,7.0,3243024,93,4,Medium
+University of Hamburg,Germany,Data Science,7.9,6.1,1864803,58,121,Low
+National University of Singapore,Singapore,AI,7.0,5.7,3525913,24,70,High
+University of Alberta,Canada,AI,8.1,7.3,2142444,79,142,Medium
+Australian National University,Australia,MBA,7.8,6.8,4634462,10,141,High
+University of Hamburg,Germany,Business,8.9,7.1,4214248,48,179,Medium
+Nanyang Technological University,Singapore,MBA,8.9,5.8,2598028,60,58,High
+Harvard University,USA,Business,6.3,7.3,4802680,78,23,Low
+University of Cambridge,UK,AI,8.2,5.6,3643579,28,198,High
+Heidelberg University,Germany,AI,6.9,6.2,3774306,88,182,Low
+University of Michigan,USA,Business,7.1,6.8,4027709,48,185,Low
+Stanford University,USA,Engineering,8.6,6.0,1759261,82,132,High
+Singapore Management University,Singapore,Engineering,6.4,7.6,3703912,14,171,Low
+Simon Fraser University,Canada,Data Science,5.6,5.6,2256989,36,73,High
+University of Ottawa,Canada,Engineering,7.9,7.8,1945173,40,85,Medium
+UNSW Sydney,Australia,Data Science,8.5,7.6,4091347,71,121,Medium
+Australian National University,Australia,Data Science,7.7,6.5,3971428,95,48,Low
+Monash University,Australia,MBA,6.6,6.6,4081402,76,109,Medium
+University of Queensland,Australia,Computer Science,6.5,5.7,2433186,29,90,Medium
+King's College London,UK,Computer Science,5.6,5.9,2312971,70,49,Low
+Nanyang Technological University,Singapore,AI,8.5,6.9,1316380,75,66,High
+RWTH Aachen University,Germany,Engineering,8.0,7.1,3142297,36,155,Low
+Singapore Management University,Singapore,AI,6.2,6.2,2115423,33,88,Medium
+University of Sydney,Australia,Data Science,8.3,5.8,3113017,58,56,Low
+University of Cologne,Germany,Data Science,8.2,7.8,3962794,31,74,High
+Imperial College London,UK,Data Science,8.8,7.8,2584365,16,32,High
+RMIT University,Australia,AI,6.6,6.8,1622435,38,155,Medium
+University of Alberta,Canada,MBA,8.5,6.1,2836949,95,38,Low
+NYU,USA,Business,6.2,7.4,4738515,34,169,Medium
+Australian National University,Australia,Business,8.6,6.9,3164171,57,4,Medium
+University of Sydney,Australia,AI,5.7,6.7,3281102,75,137,High
+National University of Singapore,Singapore,AI,7.3,7.0,1411319,74,77,Medium
+University of Birmingham,UK,MBA,6.8,6.7,2500329,43,50,High
+National University of Singapore,Singapore,MBA,7.2,7.3,3485900,94,82,Low
+Imperial College London,UK,AI,8.9,7.6,4322259,89,54,Medium
+National University of Singapore,Singapore,Data Science,6.0,7.1,1536639,41,100,Medium
+University of Hamburg,Germany,Computer Science,8.4,6.6,4764880,54,110,Low
+Singapore Management University,Singapore,MBA,8.3,6.1,1258743,80,9,Low
+Technical University of Munich,Germany,AI,5.6,7.6,1388101,59,188,Low
+University of Birmingham,UK,MBA,6.9,5.9,1296107,55,21,High
+University of Waterloo,Canada,Data Science,8.8,6.9,4473703,35,70,High
+Purdue University,USA,Engineering,6.2,7.1,4520229,86,195,High
+University College London,UK,Engineering,7.5,6.0,1896018,86,145,High
+Queen's University,Canada,Engineering,6.5,7.1,4897029,59,151,Medium
+UNSW Sydney,Australia,Data Science,6.1,6.5,4695405,77,54,High
+University of Cologne,Germany,MBA,6.5,7.8,4892481,42,132,Medium
+NYU,USA,AI,6.1,6.1,3286518,10,185,Low
+Imperial College London,UK,Engineering,7.4,7.9,3657181,21,181,High
+University of Birmingham,UK,Computer Science,7.0,6.1,3804084,6,17,Low
+TU Berlin,Germany,Data Science,5.7,5.6,2951519,66,188,High
+University of Waterloo,Canada,MBA,7.8,6.1,2639621,38,51,Medium
+Australian National University,Australia,Computer Science,8.9,5.9,4439182,48,57,Low
+Technical University of Munich,Germany,Business,8.1,6.5,3761427,68,170,High
+National University of Singapore,Singapore,Engineering,6.1,7.3,1598887,73,152,Low
+NYU,USA,AI,6.5,5.6,4788176,7,42,Low
+University of Cambridge,UK,Data Science,7.4,6.3,2995602,72,198,High
+UNSW Sydney,Australia,MBA,8.5,6.8,4316481,83,165,Medium
+University of Manchester,UK,AI,8.5,6.3,1669186,60,32,Low
+University of Cambridge,UK,Business,8.1,7.3,1437868,70,94,High
+UC Berkeley,USA,Engineering,8.4,6.6,4952316,7,196,High
+Free University of Berlin,Germany,AI,9.0,6.3,4261454,59,70,Low
+Australian National University,Australia,AI,6.9,5.8,4876172,85,6,High
+TU Berlin,Germany,Business,6.4,6.0,3279968,31,156,Low
+University of Toronto,Canada,Data Science,8.8,7.5,1889578,86,160,Low
+Singapore Management University,Singapore,MBA,8.0,5.5,4254422,68,126,Low
+Singapore Management University,Singapore,Business,6.5,7.3,1821085,91,43,Low
+Georgia Tech,USA,Business,5.7,6.9,1210588,26,79,Low
+University of Sydney,Australia,MBA,7.3,7.2,3399028,81,24,High
+University of Freiburg,Germany,Computer Science,8.2,7.0,3233822,40,190,High
+University of Edinburgh,UK,Data Science,8.7,6.3,4705598,52,195,High
+University of Freiburg,Germany,Data Science,7.3,7.4,3440745,92,96,Low
+Heidelberg University,Germany,AI,6.5,6.3,3193959,41,173,Medium
+NYU,USA,Business,5.7,6.3,1933022,42,48,Medium
+UCLA,USA,Engineering,8.1,6.8,1708558,52,57,Low
+University of British Columbia,Canada,Business,7.1,7.1,2760889,32,160,Low
+University of Freiburg,Germany,Data Science,5.9,6.5,2390896,86,130,High
+University of Bonn,Germany,Data Science,5.7,7.7,1947361,27,114,Low
+Harvard University,USA,MBA,7.7,7.5,2313436,23,86,Low
+University of Queensland,Australia,Engineering,7.6,6.0,2377409,73,194,Medium
+University of Cologne,Germany,Data Science,5.9,7.8,2201885,13,69,Low
+University of Freiburg,Germany,MBA,8.2,7.7,2852679,78,190,High
+Free University of Berlin,Germany,MBA,6.9,7.3,1598682,49,128,Low
+National University of Singapore,Singapore,Engineering,6.8,6.9,1524615,16,6,Medium
+Nanyang Technological University,Singapore,Business,5.8,5.7,4240182,69,184,Medium
+University of Waterloo,Canada,MBA,7.7,6.0,3559738,52,136,Medium
+University of Sydney,Australia,Data Science,8.1,6.1,4602916,62,194,Medium
+Nanyang Technological University,Singapore,MBA,7.2,6.5,1277248,59,44,Low
+Technical University of Munich,Germany,Engineering,7.6,7.9,2983217,65,59,Medium
+University of Hamburg,Germany,Data Science,7.3,6.2,2166603,72,173,Low
+Nanyang Technological University,Singapore,MBA,8.8,7.8,1656667,23,193,Low
+University of Cambridge,UK,Computer Science,6.9,5.8,3501307,60,82,Low
+McGill University,Canada,Data Science,7.0,5.9,2307415,84,116,High
+University of Cambridge,UK,Data Science,7.0,6.2,4436704,80,129,Low
+UNSW Sydney,Australia,Data Science,8.7,7.9,1886405,49,49,Medium
+University of Birmingham,UK,MBA,8.8,6.6,4883910,64,128,High
+Stanford University,USA,Computer Science,7.0,5.7,2840037,14,104,Low
+RWTH Aachen University,Germany,Business,7.3,7.2,3396066,42,88,Medium
+MIT,USA,Business,7.8,6.7,2261145,67,163,High
+King's College London,UK,Engineering,8.1,7.1,1871210,40,15,Low
+University of Stuttgart,Germany,Engineering,7.9,6.9,1873287,35,7,Low
+University of Adelaide,Australia,Business,8.2,6.1,4089505,51,27,Low
+National University of Singapore,Singapore,Data Science,5.8,6.3,2859915,32,109,High
+Singapore Management University,Singapore,AI,7.3,6.0,3783134,76,92,Medium
+UC Berkeley,USA,Business,6.7,6.7,2934388,76,56,Low
+Heidelberg University,Germany,Data Science,9.0,6.7,2844443,78,84,High
+University of Stuttgart,Germany,MBA,8.6,6.1,1847900,23,132,Medium
+UCLA,USA,Engineering,6.5,7.7,3661437,81,10,Low
+Simon Fraser University,Canada,Computer Science,6.8,6.1,4204569,56,109,Low
+University of Melbourne,Australia,Engineering,6.8,6.4,1769099,82,48,Medium
+Purdue University,USA,Data Science,7.6,6.2,3457856,70,191,Low
+University of Freiburg,Germany,AI,5.8,7.8,1299915,81,150,High
+University of Melbourne,Australia,Computer Science,6.3,6.5,1371285,19,123,Medium
+NYU,USA,Computer Science,5.9,5.5,2144949,40,90,High
+Stanford University,USA,Computer Science,8.7,7.4,2719286,27,157,Low
+University of Hamburg,Germany,Engineering,7.4,6.0,2188912,76,102,Low
+University of Oxford,UK,MBA,8.4,6.0,2486246,65,128,Medium
+University of Ottawa,Canada,Computer Science,8.4,6.5,2559718,68,41,Low
+Imperial College London,UK,Engineering,6.7,7.8,4068183,43,45,High
+Singapore Management University,Singapore,Engineering,7.7,6.9,3407716,26,90,High
+University of Michigan,USA,Data Science,6.8,6.6,1743691,32,123,Medium
+University of Edinburgh,UK,Computer Science,6.2,5.8,1966812,22,111,Low
+University of Cambridge,UK,AI,8.0,7.3,3022071,47,132,Low
+University of Bonn,Germany,Engineering,7.0,7.0,1223630,14,37,Medium
+University of Bonn,Germany,Engineering,7.1,6.5,2066401,43,182,Low
+McMaster University,Canada,AI,6.8,7.8,2432622,79,69,Medium
+University of Cologne,Germany,Computer Science,8.9,6.0,2966804,87,26,High
+NYU,USA,Computer Science,8.6,5.9,1716377,37,183,Medium
+Western University,Canada,Business,6.5,5.6,2519259,7,92,Low
+TU Berlin,Germany,Engineering,6.4,7.8,4999067,75,141,Medium
+Singapore Management University,Singapore,Computer Science,5.6,7.1,2596111,35,5,Medium
+University of Waterloo,Canada,AI,6.3,7.1,3994953,85,168,High
+University of British Columbia,Canada,Business,5.8,6.3,2477687,71,176,Low
+University of Melbourne,Australia,Engineering,7.4,7.7,2590278,12,88,High
+Monash University,Australia,Computer Science,8.6,7.8,4646929,7,195,Medium
+Macquarie University,Australia,Data Science,7.9,5.8,4619828,36,198,Low
+Western University,Canada,Business,8.6,6.5,2023407,8,21,High
+University of Ottawa,Canada,Engineering,5.6,6.1,2867074,9,67,Low
+University of Michigan,USA,Business,6.2,6.7,3187614,58,78,High
+University of Bonn,Germany,Computer Science,8.8,5.5,4292039,29,109,Medium
+NYU,USA,Engineering,5.7,6.9,3704430,77,170,Low
+Singapore Management University,Singapore,MBA,6.4,6.0,3790635,45,145,High
+Free University of Berlin,Germany,Business,8.3,5.7,3577254,28,6,High
+University of Cologne,Germany,MBA,7.4,6.2,2747005,47,55,Low
+University of Birmingham,UK,Business,7.1,7.9,4318821,56,80,Medium
+Imperial College London,UK,Data Science,6.2,7.9,4978339,23,183,Medium
+Singapore Management University,Singapore,MBA,7.4,6.0,1787001,21,2,High
+Nanyang Technological University,Singapore,Data Science,8.7,7.0,4343380,51,166,Medium
+University of Freiburg,Germany,Computer Science,6.8,7.6,3469899,39,150,Low
+University of Toronto,Canada,Engineering,6.3,7.3,2491905,30,27,Medium
+University of Bonn,Germany,Engineering,8.0,7.1,3242070,51,190,High
+Macquarie University,Australia,MBA,8.9,7.2,1829375,58,200,Low
+Singapore Management University,Singapore,Engineering,6.4,8.0,2554755,12,75,Low
+Free University of Berlin,Germany,MBA,7.5,5.8,1465492,88,50,Medium
+University of Adelaide,Australia,MBA,8.5,6.9,4976283,8,197,Low
+Harvard University,USA,Data Science,5.6,6.7,2766493,67,63,Medium
+University of Washington,USA,Data Science,8.4,6.1,4298265,51,172,Low
+Nanyang Technological University,Singapore,MBA,6.3,7.9,2698925,13,14,Low
+University of Michigan,USA,Computer Science,7.9,7.2,1335666,52,121,High
+Georgia Tech,USA,Business,8.9,6.3,2287746,27,1,Medium
+University of Cologne,Germany,Engineering,7.6,6.8,3620301,55,141,Medium
+Monash University,Australia,Data Science,7.4,6.7,1285726,94,43,Low
+University of Queensland,Australia,Computer Science,6.3,5.5,3877616,15,193,Low
+University of Oxford,UK,Computer Science,7.5,6.5,4816860,76,143,Low
+King's College London,UK,AI,6.6,7.8,1509187,30,174,Low
+University of Michigan,USA,MBA,6.0,7.7,2753055,92,122,Medium
+RWTH Aachen University,Germany,AI,7.9,6.6,3247314,34,158,Medium
+University of Waterloo,Canada,Data Science,8.6,6.9,3943104,78,157,High
+University of Sydney,Australia,Data Science,7.1,7.8,3280053,66,167,Medium
+University of Alberta,Canada,AI,8.2,5.9,3842467,7,76,Low
+University of British Columbia,Canada,Engineering,8.4,6.8,2987511,38,149,Medium
+University of Waterloo,Canada,AI,8.0,6.7,4048704,58,45,Medium
+University of Western Australia,Australia,Data Science,8.4,8.0,4884857,49,45,Low
+University of Oxford,UK,Engineering,8.9,5.9,2831171,23,19,Medium
+Nanyang Technological University,Singapore,Computer Science,8.0,8.0,1243996,53,138,Low
+University of Oxford,UK,Business,7.6,8.0,2433625,13,22,Low
+Macquarie University,Australia,Computer Science,7.5,7.7,4984352,73,111,High
+University of Cologne,Germany,Business,6.6,6.7,4750134,79,107,High
+University of Edinburgh,UK,Business,5.7,6.7,2156607,33,133,Low
+University of Queensland,Australia,Engineering,6.2,5.5,2542702,24,102,Low
+University of Bonn,Germany,Data Science,6.2,6.1,4468775,47,126,Medium
+Singapore Management University,Singapore,Computer Science,8.5,6.9,2037594,33,169,High
+MIT,USA,Engineering,8.4,7.6,2040587,71,177,High
+University of Cologne,Germany,Business,7.1,6.2,2866315,52,169,Low
+National University of Singapore,Singapore,MBA,6.8,7.7,2468790,19,137,Low
+University of Bonn,Germany,Engineering,6.9,7.2,2365156,30,25,High
+RMIT University,Australia,Business,8.3,6.5,4651550,51,196,High
+University of Glasgow,UK,Data Science,6.6,5.6,1951834,60,36,High
+Nanyang Technological University,Singapore,Data Science,6.3,6.9,1381902,52,71,Low
+University of Cologne,Germany,MBA,6.0,8.0,3488615,59,36,High
+University of Sydney,Australia,Engineering,6.1,7.2,1847151,6,35,Medium
+UC Berkeley,USA,Computer Science,6.6,7.9,1335394,78,99,High
+Nanyang Technological University,Singapore,MBA,8.2,7.0,3362408,32,15,Medium
+University of Melbourne,Australia,Engineering,6.0,6.7,2865574,85,50,Low
+UNSW Sydney,Australia,AI,6.9,5.9,4753831,91,84,High
+University of British Columbia,Canada,MBA,7.9,6.3,1647170,22,194,High
+University of British Columbia,Canada,MBA,6.8,7.7,3872771,72,55,High
+Nanyang Technological University,Singapore,Computer Science,7.2,6.5,3995917,45,64,Low
+Simon Fraser University,Canada,Data Science,8.1,7.1,4540661,66,187,High
+University of Sydney,Australia,Engineering,6.7,6.9,2617828,63,133,Medium
+University of Glasgow,UK,Data Science,7.7,7.3,3253672,31,87,Low
+University of Hamburg,Germany,MBA,8.4,7.3,2353626,89,63,High
+University of Western Australia,Australia,AI,7.4,5.8,4362133,80,160,Medium
+University of Adelaide,Australia,Data Science,6.0,7.1,4691061,13,160,Medium
+University of Oxford,UK,Computer Science,7.3,5.8,3604342,25,27,Medium
+University of Leeds,UK,MBA,7.8,7.9,3546385,19,172,Medium
+University of Washington,USA,Business,8.2,6.4,1585338,65,153,Medium
+University of Michigan,USA,Data Science,6.9,6.7,2262871,93,101,Medium
+University of Queensland,Australia,MBA,7.7,7.6,2053595,34,71,Medium
+Nanyang Technological University,Singapore,AI,7.9,5.6,2148134,48,26,Low
+University of Glasgow,UK,Data Science,8.0,7.8,1946050,10,40,High
+Free University of Berlin,Germany,Engineering,6.6,6.8,1401309,33,149,Medium
+Queen's University,Canada,Engineering,8.2,7.2,3873211,57,73,Medium
+University of Western Australia,Australia,MBA,8.6,6.3,4988110,43,134,High
+University of Leeds,UK,Data Science,8.7,6.7,1551194,46,151,High
+Georgia Tech,USA,MBA,8.7,7.8,4432553,93,85,Medium
+University of Queensland,Australia,Business,6.0,5.6,2101694,82,146,Medium
+Western University,Canada,Business,7.1,7.2,3656004,65,170,Medium
+University of Melbourne,Australia,Engineering,6.8,7.0,3818336,44,160,Medium
+University of Manchester,UK,Business,8.0,7.8,3667563,21,59,High
+MIT,USA,Computer Science,6.4,6.5,1225996,23,10,Low
+Imperial College London,UK,Data Science,7.8,7.5,3482542,67,81,Low
+University of Oxford,UK,Engineering,7.4,8.0,1480873,41,124,Medium
+University of Adelaide,Australia,Engineering,6.4,7.3,1899205,72,107,High
+TU Berlin,Germany,MBA,6.7,7.2,3634559,46,1,High
+University of Toronto,Canada,MBA,6.6,7.0,3736580,15,168,Low
+McMaster University,Canada,MBA,6.7,7.5,1766311,31,59,Medium
+University of Sydney,Australia,AI,6.7,6.0,4813683,52,64,Low
+University of Toronto,Canada,Data Science,7.9,6.4,3382910,65,24,Medium
+University of Hamburg,Germany,Computer Science,5.7,7.3,1596555,69,20,High
+King's College London,UK,Computer Science,8.3,6.4,2544388,8,94,Low
+TU Berlin,Germany,MBA,6.4,7.5,2615154,82,1,High
+Imperial College London,UK,Engineering,6.3,7.5,2179984,25,99,High
+University of Washington,USA,MBA,8.4,7.2,4987887,59,49,Medium
+University of Waterloo,Canada,MBA,7.6,6.4,2211616,65,46,Medium
+University of Bonn,Germany,MBA,8.0,7.8,1416197,15,86,High
+Queen's University,Canada,Business,6.4,7.3,1475043,50,20,Low
+RMIT University,Australia,Computer Science,6.6,7.2,2967284,27,64,High
+Western University,Canada,Engineering,6.8,6.2,3311611,59,11,High
+University of Manchester,UK,Business,8.2,7.8,3206223,7,133,Medium
+National University of Singapore,Singapore,Engineering,8.5,7.8,3645544,40,191,Medium
+MIT,USA,MBA,5.5,7.2,3360308,31,134,High
+University of Oxford,UK,Computer Science,6.4,6.7,2184781,33,197,High
+Singapore Management University,Singapore,Engineering,6.5,6.8,1404417,19,89,High
+Harvard University,USA,MBA,7.4,6.7,2236547,68,14,High
+University of Stuttgart,Germany,Data Science,7.6,6.3,3266353,29,78,Medium
+Technical University of Munich,Germany,AI,7.1,7.8,4678465,52,183,Low
+NYU,USA,Computer Science,6.4,6.5,3139582,20,127,Medium
+University of Birmingham,UK,Computer Science,8.7,6.7,1801847,73,196,Low
+Australian National University,Australia,Business,6.3,6.4,1662336,69,8,High
+Macquarie University,Australia,AI,5.6,7.4,1288872,66,97,High
+University of Toronto,Canada,Data Science,6.0,7.2,2796160,13,107,High
+University of Cologne,Germany,AI,6.0,6.2,3964721,14,95,Low
+Australian National University,Australia,MBA,6.3,6.9,2613012,77,63,High
+University of Alberta,Canada,Data Science,8.0,5.7,3808020,69,174,Medium
+Imperial College London,UK,Computer Science,6.3,7.1,4076658,25,49,Medium
+UCLA,USA,Computer Science,8.8,6.2,3053394,36,46,High
+University of Edinburgh,UK,Business,8.4,6.4,2240306,77,96,Low
+University of British Columbia,Canada,AI,5.7,5.8,2201856,43,40,High
+McGill University,Canada,Computer Science,7.7,5.9,4885163,10,43,High
+University of Oxford,UK,MBA,8.0,6.3,3567441,71,176,High
+University College London,UK,MBA,8.2,5.8,1398579,51,158,Medium
+University of Alberta,Canada,AI,6.0,6.1,2872244,80,103,High
+Purdue University,USA,Business,8.3,7.5,2438936,21,113,Low
+University of Edinburgh,UK,AI,7.8,5.7,3470314,5,172,High
+Singapore Management University,Singapore,Engineering,6.2,6.8,2577583,91,49,Low
+University of Queensland,Australia,Business,6.3,7.7,3869281,79,179,Low
+University of Oxford,UK,Business,7.3,6.6,3520145,90,133,High
+Free University of Berlin,Germany,Data Science,8.7,7.6,3845287,48,118,Medium
+University of Washington,USA,AI,6.5,7.1,4633107,17,99,High
+University of Michigan,USA,Computer Science,6.2,7.0,1319774,10,46,Low
+Macquarie University,Australia,Data Science,5.6,7.8,3159619,13,84,Low
+University of Michigan,USA,Data Science,6.4,6.1,1838458,69,2,Medium
+Nanyang Technological University,Singapore,Business,7.0,7.1,1982917,74,150,Medium
+UC Berkeley,USA,Data Science,6.6,7.8,3775877,42,104,Medium
+University of Bonn,Germany,Engineering,7.8,7.7,2889176,10,15,Medium
+Western University,Canada,Data Science,5.9,6.1,1781969,84,123,Low
+University of Sydney,Australia,AI,6.2,5.7,4062294,43,71,High
+Imperial College London,UK,AI,6.5,7.4,2100302,65,149,High
+University of Edinburgh,UK,Data Science,6.4,7.4,1770429,16,55,High
+McMaster University,Canada,AI,8.4,7.7,2494810,79,109,Low
+Technical University of Munich,Germany,AI,8.8,7.9,4474905,8,195,Low
+Queen's University,Canada,MBA,8.6,7.2,4811722,12,163,Low
+University of Freiburg,Germany,Engineering,6.4,5.9,3359838,76,32,Low
+UNSW Sydney,Australia,Engineering,8.2,7.4,4001154,58,23,Medium
+University of Ottawa,Canada,Data Science,6.3,6.6,1547257,43,115,Low
+University of Washington,USA,Computer Science,7.9,6.4,2216492,82,166,High
+Nanyang Technological University,Singapore,Engineering,8.9,7.5,3844015,9,33,Medium
+University of Freiburg,Germany,Business,8.3,7.3,3934856,38,61,Medium
+University of Queensland,Australia,Engineering,6.0,5.9,2397581,85,194,High
+University of Queensland,Australia,AI,7.1,5.6,4644308,31,28,Medium
+McMaster University,Canada,Engineering,6.2,7.8,1629077,28,169,Medium
+University of Ottawa,Canada,Business,8.6,6.3,4079657,18,63,High
+Singapore Management University,Singapore,Computer Science,6.8,7.5,3282093,29,78,Medium
+RWTH Aachen University,Germany,Business,6.6,5.8,1865762,69,94,Medium
+University of Sydney,Australia,Computer Science,7.4,7.0,1228778,10,38,High
+University of Waterloo,Canada,Data Science,6.0,5.6,3747026,86,114,High
+University of Melbourne,Australia,MBA,8.3,7.1,4356422,14,13,High
+UNSW Sydney,Australia,Business,6.7,6.5,1256082,57,103,Medium
+Australian National University,Australia,Business,6.9,8.0,3158741,86,122,Medium
+MIT,USA,Computer Science,6.5,7.5,4263599,58,39,High
+National University of Singapore,Singapore,Business,5.5,6.6,3096767,8,187,High
+Simon Fraser University,Canada,Engineering,8.1,5.7,3521213,19,113,Medium
+National University of Singapore,Singapore,AI,5.9,5.7,3208611,9,1,High
+Technical University of Munich,Germany,Data Science,7.9,5.9,2781684,36,92,High
+MIT,USA,Computer Science,7.9,5.7,1628228,86,148,Low
+University of Glasgow,UK,Engineering,8.2,6.9,3533434,6,68,High
+National University of Singapore,Singapore,MBA,6.5,7.6,2089833,25,24,Low
+McMaster University,Canada,Engineering,8.1,7.0,3666765,55,86,Medium
+National University of Singapore,Singapore,AI,8.5,5.6,2186641,83,84,Low
+UCLA,USA,Business,7.6,6.2,3537856,11,11,High
+UCLA,USA,AI,5.6,5.8,2252019,43,101,High
+Simon Fraser University,Canada,MBA,5.8,6.1,3767933,50,35,High
+University of Edinburgh,UK,Engineering,6.4,7.6,2471257,21,125,Low
+University of Glasgow,UK,Business,5.7,6.1,4320500,32,56,Low
+University of Cambridge,UK,Business,8.7,6.1,2771489,43,115,Low
+Technical University of Munich,Germany,AI,9.0,5.6,4184476,44,8,Low
+Macquarie University,Australia,Engineering,8.2,7.6,1384392,30,14,Low
+University College London,UK,Computer Science,8.2,6.4,3917479,95,138,Medium
+MIT,USA,Data Science,6.2,6.9,1999620,22,136,High
+Nanyang Technological University,Singapore,Business,6.2,7.6,3344586,61,78,Medium
+University of Bonn,Germany,AI,8.8,6.6,3274653,59,116,Low
+University College London,UK,Computer Science,6.9,7.9,1347531,69,54,Low
+TU Berlin,Germany,Engineering,6.8,5.7,4137581,87,130,Medium
+University of Edinburgh,UK,Business,6.0,6.2,4315329,62,166,Low
+Singapore Management University,Singapore,Computer Science,8.5,7.1,1948504,64,176,Medium
+University of Ottawa,Canada,Business,6.5,7.1,3442673,52,17,Low
+Purdue University,USA,MBA,5.9,5.9,2526109,22,42,Low
+University of Freiburg,Germany,AI,9.0,7.1,2180845,39,118,Low
+NYU,USA,Business,7.9,7.4,3596581,68,89,Low
+University of British Columbia,Canada,MBA,8.7,5.9,4742338,76,98,High
+National University of Singapore,Singapore,Business,6.2,6.9,4297060,23,142,Low
+University of Leeds,UK,AI,8.0,7.4,4605420,18,90,High
+Australian National University,Australia,Business,5.6,6.4,3576085,13,172,Low
+RWTH Aachen University,Germany,Computer Science,7.1,7.6,4471054,50,192,Medium
+UCLA,USA,Engineering,7.6,7.6,3966406,53,185,Low
+University of Adelaide,Australia,Data Science,8.8,6.1,2130849,40,125,High
+University of Toronto,Canada,MBA,6.8,7.1,3925631,42,87,High
+McMaster University,Canada,Business,8.9,6.9,3903074,63,123,High
+University College London,UK,Business,8.6,5.6,3125540,12,53,Low
+Singapore Management University,Singapore,AI,9.0,7.1,1351913,68,32,Medium
+Nanyang Technological University,Singapore,Computer Science,8.9,7.3,2199666,49,12,High
+University of Leeds,UK,Data Science,6.2,7.2,4672556,84,25,High
+University of Bonn,Germany,AI,8.6,6.6,4819344,91,32,Low
+University of Manchester,UK,Engineering,7.9,6.6,2352948,76,168,High
+Heidelberg University,Germany,AI,6.9,6.1,1489539,13,27,Medium
+University of Queensland,Australia,Engineering,8.4,7.2,4489141,18,43,Low
+University of Melbourne,Australia,AI,5.8,7.8,2356494,94,64,Low
+Imperial College London,UK,MBA,7.5,7.9,3851460,80,192,High
+UNSW Sydney,Australia,MBA,7.0,7.1,2678970,88,126,Medium
+RWTH Aachen University,Germany,AI,7.8,5.8,2273488,47,14,Medium
+University of British Columbia,Canada,AI,6.3,6.4,2328462,62,197,Medium
+NYU,USA,MBA,8.1,7.0,3680249,87,106,Low
+University of Alberta,Canada,Business,6.2,5.5,3658385,61,41,High
+Nanyang Technological University,Singapore,Business,7.2,6.3,3288284,68,57,Medium
+University of Manchester,UK,Engineering,6.3,5.6,2259302,39,134,High
+Heidelberg University,Germany,Business,5.5,7.6,3200435,19,174,Medium
+University of Bonn,Germany,Computer Science,6.0,7.0,1509288,39,188,High
+Nanyang Technological University,Singapore,MBA,8.0,7.0,4347592,5,114,High
+King's College London,UK,Business,6.7,7.2,4482346,34,95,Low
+TU Berlin,Germany,Data Science,7.2,7.6,4865808,63,193,Low
+University of Michigan,USA,Business,6.8,5.5,4364088,49,47,High
+University of Leeds,UK,Business,8.2,7.4,3477347,56,73,Medium
+UCLA,USA,Data Science,8.4,7.0,4960716,10,52,Low
+University of Alberta,Canada,MBA,6.2,6.0,4987566,25,174,Medium
+Stanford University,USA,Data Science,8.7,6.7,3425785,66,139,High
+University of Bonn,Germany,MBA,8.0,6.7,2922172,6,81,Low
+National University of Singapore,Singapore,MBA,5.8,5.6,3947510,69,120,Low
+National University of Singapore,Singapore,MBA,6.6,7.0,3278543,12,67,Medium
+University of Ottawa,Canada,Data Science,5.9,7.1,4069530,45,35,Low
+UCLA,USA,Engineering,6.6,6.6,4054796,13,95,Medium
+Queen's University,Canada,Engineering,5.7,7.3,4793892,43,90,Low
+National University of Singapore,Singapore,Engineering,5.6,6.0,1898291,39,16,Low
+McGill University,Canada,Data Science,5.7,7.6,3161310,35,115,Low
+University of Leeds,UK,MBA,5.7,7.7,3513954,15,73,Low
+Nanyang Technological University,Singapore,Computer Science,8.0,6.1,2050024,74,154,High
+RMIT University,Australia,MBA,6.6,7.8,4040211,91,115,Low
+National University of Singapore,Singapore,AI,5.9,7.8,4596147,9,29,Low
+University of Leeds,UK,MBA,7.8,7.2,2946900,74,1,High
+University of Bonn,Germany,Data Science,8.9,6.0,1381122,74,116,Low
+University of Toronto,Canada,Computer Science,6.1,7.4,4327952,85,10,Low
+Singapore Management University,Singapore,AI,7.6,8.0,2157634,60,138,Low
+University of Bonn,Germany,Engineering,7.1,7.6,4078952,16,123,High
+Monash University,Australia,Data Science,8.9,6.0,3849688,77,149,Medium
+TU Berlin,Germany,AI,7.2,6.5,2681039,20,136,Medium
+Technical University of Munich,Germany,AI,8.8,7.1,3108994,51,47,High
+University of Cambridge,UK,Computer Science,6.5,7.7,1360733,49,148,High
+University of Ottawa,Canada,MBA,6.1,6.3,2431434,7,23,Low
+University of Toronto,Canada,AI,8.8,6.2,4747682,16,28,Low
+UC Berkeley,USA,AI,8.0,7.6,2689638,41,52,Medium
+University of Sydney,Australia,AI,7.9,5.8,1693306,94,38,High
+University of Adelaide,Australia,Computer Science,8.6,5.6,3640288,6,140,Low
+Free University of Berlin,Germany,Business,5.8,6.6,4544561,83,51,Low
+NYU,USA,Computer Science,5.6,6.1,1974554,45,179,High
+University of Hamburg,Germany,Computer Science,6.9,6.6,2616440,49,101,High
+Nanyang Technological University,Singapore,MBA,7.2,7.4,1932457,16,162,High
+University of Waterloo,Canada,Computer Science,6.8,6.8,3347198,47,49,Medium
+University of Glasgow,UK,Computer Science,7.9,6.7,2816791,24,32,High
+Singapore Management University,Singapore,Data Science,5.9,6.2,1967484,37,107,Low
+University of Freiburg,Germany,Computer Science,5.6,7.1,2796241,51,44,Medium
+Monash University,Australia,Business,6.0,6.6,2194413,21,160,Low
+University of Ottawa,Canada,Data Science,8.8,7.0,3790087,74,29,Low
+University of Edinburgh,UK,Engineering,6.5,6.1,4394530,42,40,Low
+University of Ottawa,Canada,Engineering,8.5,6.9,3495819,21,152,Low
+King's College London,UK,Computer Science,7.7,6.4,3928648,88,181,High
+McGill University,Canada,AI,6.7,5.9,1238127,75,96,High
+Singapore Management University,Singapore,MBA,6.6,7.1,1756300,66,109,Low
+National University of Singapore,Singapore,MBA,6.8,5.8,1792616,37,31,High
+University of Ottawa,Canada,Computer Science,6.7,6.6,2291307,34,63,Low
+UCLA,USA,AI,6.3,7.1,2617187,42,34,Medium
+University of Oxford,UK,Data Science,6.0,6.1,1238630,83,90,Low
+University of Alberta,Canada,AI,7.1,7.9,1492293,94,109,Medium
+Nanyang Technological University,Singapore,Business,7.8,6.1,3019801,79,179,Medium
+Queen's University,Canada,AI,8.6,6.7,2263302,94,123,Medium
+University of Bonn,Germany,Engineering,7.8,7.4,3970218,21,97,Medium
+RMIT University,Australia,AI,7.6,5.7,2044981,62,177,Medium
+Singapore Management University,Singapore,Engineering,8.5,6.5,1965350,89,145,Low
+McMaster University,Canada,Business,6.6,6.5,4416687,30,137,Low
+University of Washington,USA,Data Science,5.9,7.9,1680639,78,106,High
+Heidelberg University,Germany,MBA,8.4,6.7,4656825,46,104,High
+University of Toronto,Canada,Computer Science,7.3,7.1,4769480,89,113,Low
+University of British Columbia,Canada,Computer Science,6.2,7.7,1888627,35,90,Medium
+Harvard University,USA,Data Science,7.7,7.6,3176697,49,15,Low
+University of Adelaide,Australia,AI,6.0,6.2,2991768,79,184,Medium
+University of British Columbia,Canada,Business,8.9,5.8,2702352,48,47,High
+University of Toronto,Canada,Engineering,6.5,7.3,1672286,95,6,Low
+McGill University,Canada,Business,8.7,6.5,3470561,64,184,Medium
+University of Stuttgart,Germany,Business,7.3,7.6,4906103,34,167,High
+University of Adelaide,Australia,Data Science,8.7,5.5,1790273,77,125,High
+MIT,USA,Engineering,7.8,5.9,3300944,13,3,Low
+University of Hamburg,Germany,Data Science,7.0,6.8,3810540,43,31,High
+University of Glasgow,UK,Computer Science,6.4,6.9,4868244,38,191,High
+McGill University,Canada,AI,7.5,7.5,2089296,68,12,High
+University of Edinburgh,UK,Business,5.9,6.5,1618533,88,57,Low
+Nanyang Technological University,Singapore,AI,8.5,6.3,2700556,63,193,Low
+National University of Singapore,Singapore,Computer Science,6.0,6.1,3665873,87,120,Low
+University of Alberta,Canada,Data Science,7.7,6.7,1480711,39,116,High
+University of Oxford,UK,AI,8.9,6.9,4253503,55,181,Medium
+National University of Singapore,Singapore,AI,8.5,6.8,2905633,24,186,Medium
+University of Hamburg,Germany,Computer Science,5.6,6.1,1827347,78,193,Low
+University of Manchester,UK,Computer Science,6.8,7.0,4131628,47,166,Low
+Monash University,Australia,Engineering,7.6,7.0,2503514,88,51,Low
+RMIT University,Australia,Business,7.5,5.9,3521771,65,165,Medium
+UCLA,USA,AI,8.6,5.7,3157402,14,87,Low
+Western University,Canada,AI,7.2,5.7,3520455,11,40,Low
+University of Cologne,Germany,Data Science,7.6,7.3,1692978,94,94,Medium
+Stanford University,USA,Engineering,6.8,7.3,3424551,53,110,High
+University of Queensland,Australia,Computer Science,7.8,6.7,3785445,52,143,Low
+University of Queensland,Australia,Computer Science,8.7,7.9,1412705,46,171,High
+Stanford University,USA,AI,7.6,6.7,4173452,57,195,Medium
+MIT,USA,MBA,8.6,6.4,4895876,13,1,Low
+University of Edinburgh,UK,Data Science,7.5,7.4,3927099,23,20,High
+Free University of Berlin,Germany,Business,5.7,7.5,4191501,68,10,Low
+RMIT University,Australia,Computer Science,8.2,5.8,2372036,68,103,Medium
+RWTH Aachen University,Germany,MBA,7.8,7.9,4773077,69,191,Medium
+National University of Singapore,Singapore,Engineering,5.7,5.8,3047049,37,9,Medium
+Singapore Management University,Singapore,AI,7.9,6.8,3705491,24,105,Low
+RMIT University,Australia,AI,7.1,6.0,1993138,33,45,Low
+Singapore Management University,Singapore,Business,7.2,6.5,2788400,89,128,Medium
+University of Oxford,UK,Computer Science,7.2,6.7,2649656,61,74,High
+University of Waterloo,Canada,Engineering,8.0,6.3,4165707,51,70,Medium
+Macquarie University,Australia,Computer Science,6.9,6.6,2311915,18,184,High
+University of Queensland,Australia,AI,6.6,6.5,3495502,64,120,Medium
+Nanyang Technological University,Singapore,Data Science,7.1,6.8,1502780,19,42,Low
+National University of Singapore,Singapore,MBA,8.7,5.8,4502793,75,150,Medium
+University of Cologne,Germany,Computer Science,5.6,5.6,2535985,54,167,Medium
+Georgia Tech,USA,MBA,8.7,7.3,2549386,12,3,Medium
+University College London,UK,Computer Science,7.2,7.3,3762792,89,124,High
+Harvard University,USA,AI,8.9,6.2,3348221,48,52,Low
+NYU,USA,Computer Science,6.3,5.8,2853515,52,117,Low
+UCLA,USA,Computer Science,7.6,7.6,1953400,22,195,High
+University of Manchester,UK,MBA,5.5,6.5,4575710,58,108,Medium
+Nanyang Technological University,Singapore,MBA,9.0,7.6,3536837,45,123,High
+University of Glasgow,UK,Business,5.5,7.3,3271027,84,62,High
+Macquarie University,Australia,Data Science,8.7,5.7,3977040,40,191,Low
+Western University,Canada,Business,7.3,6.6,4240985,35,145,Low
+Free University of Berlin,Germany,Business,7.4,7.3,4036593,57,122,Medium
+TU Berlin,Germany,Engineering,8.4,7.6,3123303,19,31,High
+University of Leeds,UK,Computer Science,6.6,6.0,2702373,75,3,Medium
+University of Michigan,USA,AI,5.8,7.4,2492527,77,160,Medium
+Queen's University,Canada,AI,7.9,5.6,3625581,10,96,High
+Free University of Berlin,Germany,AI,8.9,5.7,4801831,86,191,Medium
+University of Edinburgh,UK,AI,7.8,6.0,4323514,93,127,Low
+University of Leeds,UK,MBA,7.1,6.8,2831921,13,55,High
+Western University,Canada,Computer Science,5.7,7.4,1703429,45,56,Medium
+Harvard University,USA,Business,6.7,7.0,2200435,86,125,Low
+University of Washington,USA,Computer Science,6.0,5.6,2648599,46,6,High
+University of Cambridge,UK,Engineering,7.9,6.1,4086041,8,118,Low
+Macquarie University,Australia,MBA,8.4,7.9,1584872,71,167,Medium
+RWTH Aachen University,Germany,Data Science,7.7,6.0,4563314,77,69,Low
+University of Cologne,Germany,Computer Science,6.3,7.7,1432455,49,98,Low
+University of British Columbia,Canada,Data Science,8.6,7.7,4298688,38,73,Low
+University of Alberta,Canada,MBA,8.5,7.4,3514963,67,83,High
+National University of Singapore,Singapore,Computer Science,8.0,5.5,2975639,49,93,Medium
+King's College London,UK,Computer Science,5.5,7.3,4242355,24,59,Low
+National University of Singapore,Singapore,Business,8.4,7.9,3128816,18,66,Medium
+Monash University,Australia,MBA,8.0,6.6,3063957,41,97,Low
+National University of Singapore,Singapore,AI,5.8,7.7,4146330,95,89,High
+Singapore Management University,Singapore,MBA,8.1,7.5,3437087,88,13,Low
+University of Melbourne,Australia,Computer Science,6.7,5.8,2766226,65,39,Medium
+University of Freiburg,Germany,Engineering,7.9,5.6,3999696,74,199,Medium
+Georgia Tech,USA,MBA,8.4,7.9,3676666,15,112,High
+University of Cologne,Germany,Computer Science,8.5,7.9,3522454,91,32,Medium
+University of Edinburgh,UK,Business,7.1,7.4,1333001,34,83,Medium
+University of Ottawa,Canada,Data Science,6.8,6.1,3639937,90,64,High
+University of Waterloo,Canada,Computer Science,8.7,7.1,4638020,36,25,High
+UNSW Sydney,Australia,Computer Science,8.8,6.9,2770074,19,90,Low
+University of Queensland,Australia,Engineering,6.9,7.8,2089857,31,174,Medium
+Imperial College London,UK,Computer Science,6.2,6.8,2783454,8,142,Low
+Free University of Berlin,Germany,Data Science,5.8,6.9,4246273,5,200,High
+National University of Singapore,Singapore,AI,7.1,7.0,1370676,17,146,Medium
+University of Leeds,UK,MBA,5.6,7.1,4621552,40,46,High
+Purdue University,USA,Data Science,6.3,6.8,2209029,7,46,High
+Singapore Management University,Singapore,Business,8.2,6.2,2281870,92,92,Low
+University of Edinburgh,UK,MBA,8.0,6.7,3681268,28,146,High
+TU Berlin,Germany,AI,5.7,7.2,4226689,81,105,Low
+University of Adelaide,Australia,AI,5.6,6.1,1878403,6,29,Low
+McGill University,Canada,Data Science,6.9,5.5,4468725,84,57,Medium
+University of Bonn,Germany,Engineering,6.8,7.7,4419560,95,119,High
+University of Queensland,Australia,Business,8.1,5.5,3405403,33,182,Low
+Purdue University,USA,Data Science,8.5,6.2,2523178,33,16,Low
+University of Bonn,Germany,AI,6.7,7.6,4461736,47,43,High
+Nanyang Technological University,Singapore,Engineering,8.7,6.8,2753366,82,59,Medium
+UC Berkeley,USA,MBA,5.7,7.5,1247417,59,195,Low
+Western University,Canada,AI,6.9,5.8,1515356,66,152,Medium
+Nanyang Technological University,Singapore,Data Science,8.1,6.1,4808691,37,33,Medium
+University of Manchester,UK,MBA,8.8,5.7,4926631,73,105,Low
+Stanford University,USA,Engineering,8.5,5.9,1991457,50,33,Medium
+University of Bonn,Germany,MBA,7.3,6.5,3488696,94,174,High
+Simon Fraser University,Canada,Business,6.7,6.1,2829933,49,81,Medium
+Singapore Management University,Singapore,Computer Science,8.9,6.5,1394735,9,8,Low
+NYU,USA,Engineering,6.2,7.9,1236405,21,62,High
+University of Queensland,Australia,Business,7.0,7.3,4392468,59,61,Medium
+Nanyang Technological University,Singapore,AI,8.9,6.0,1327902,33,185,Low
+University of Cambridge,UK,Engineering,5.7,7.3,4323595,87,168,Low
+University of Ottawa,Canada,MBA,8.3,6.9,4734692,36,45,High
+Nanyang Technological University,Singapore,Engineering,8.2,5.9,1687467,22,64,Medium
+UNSW Sydney,Australia,MBA,7.0,6.8,1765658,40,197,Low
+National University of Singapore,Singapore,MBA,8.6,7.3,3861914,46,55,High
+King's College London,UK,Computer Science,8.7,5.5,1223723,56,89,Low
+TU Berlin,Germany,Engineering,7.1,6.6,1876124,18,54,Low
+Monash University,Australia,MBA,6.0,5.9,2120936,30,31,Medium
+University of Freiburg,Germany,Data Science,8.1,7.4,3455427,39,93,High
+University of Cologne,Germany,MBA,5.8,7.5,2246926,65,3,High
+Stanford University,USA,Business,6.2,7.9,2046496,12,112,Low
+Nanyang Technological University,Singapore,Data Science,7.7,7.8,1486154,22,4,High
+University of Melbourne,Australia,Data Science,6.7,6.6,3392734,24,188,Low
+University of Adelaide,Australia,Computer Science,5.8,7.3,2354697,15,58,Low
+University College London,UK,Computer Science,6.0,7.6,4135384,53,90,High
+University of British Columbia,Canada,Computer Science,6.5,7.4,2123819,48,106,Medium
+Purdue University,USA,AI,6.9,5.6,3103933,5,184,High
+McGill University,Canada,Engineering,5.9,7.1,3188712,48,68,High
+Western University,Canada,Business,5.6,5.8,3372956,71,79,Medium
+National University of Singapore,Singapore,Business,8.5,6.8,2489660,86,144,Low
+University of Oxford,UK,MBA,7.2,6.5,4394226,45,177,Medium
+University of Edinburgh,UK,Business,6.6,7.8,3248442,19,148,High
+Stanford University,USA,MBA,7.3,7.0,3527097,69,93,Medium
+University of Toronto,Canada,AI,6.6,6.2,2740562,28,165,Medium
+Heidelberg University,Germany,MBA,6.3,7.9,3017048,20,20,Medium
+Simon Fraser University,Canada,Engineering,6.2,7.9,3718598,29,38,Medium
+NYU,USA,Data Science,6.5,5.5,2459011,37,94,High
+Macquarie University,Australia,Data Science,7.6,7.2,2360237,7,92,High
+RMIT University,Australia,Computer Science,7.0,7.4,2159186,10,188,High
+University of Melbourne,Australia,Data Science,6.5,6.5,3388286,8,13,High
+University of Melbourne,Australia,AI,5.9,6.7,2332201,76,44,Medium
+University of Glasgow,UK,AI,8.8,5.8,1935835,9,23,Medium
+TU Berlin,Germany,AI,7.5,6.0,1753227,65,156,High
+Western University,Canada,MBA,8.5,5.9,3923610,39,135,High
+McGill University,Canada,Computer Science,6.3,6.3,2971813,95,166,Low
+Imperial College London,UK,Business,7.6,7.6,3126944,54,62,Low
+NYU,USA,Business,9.0,6.8,2183489,82,187,Medium
+University of Toronto,Canada,Computer Science,6.5,7.2,1763629,17,20,High
+University of Hamburg,Germany,MBA,5.5,7.2,4562776,23,34,High
+University College London,UK,AI,6.6,6.5,3906201,93,102,Low
+Nanyang Technological University,Singapore,MBA,6.1,5.6,3310408,59,190,High
+University of Melbourne,Australia,Business,6.5,7.7,1318916,84,167,High
+National University of Singapore,Singapore,Computer Science,6.1,6.1,2244253,70,78,Medium
+National University of Singapore,Singapore,Data Science,8.8,7.6,4804824,32,116,Low
+University of Cambridge,UK,Computer Science,6.1,7.5,3512915,16,119,Medium
+UC Berkeley,USA,MBA,6.3,6.3,2459235,15,99,Low
+University of Waterloo,Canada,Data Science,7.0,6.0,1450896,82,128,High
